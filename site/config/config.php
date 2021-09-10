@@ -6,6 +6,7 @@ return [
       'install' => true
     ],
   'home' => 'home',
-  'komment-auto-publish' => true
+  'komment-auto-publish' => true,
+  'url' => 'https://mkg-survey.suborder.center/'
 ];
 ?>
