@@ -163,9 +163,15 @@ a:hover{
   top: 6em;
 }
 
+h5{
+  display: none;
+}
+
 ul{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 .single-komment{
@@ -176,6 +182,70 @@ ul{
 
 li{
   list-style: none;
+  max-width: 20em;
 }
 
 #url{display: none;}
+
+.question_page{
+  position: fixed;
+  top: 10em;
+}
+
+#commentform{
+  display: none;
+  position: fixed;
+  z-index: 100;
+}
+
+#kommentform{
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  z-index: 200;
+}
+
+#commentform_bg{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  top: 0px;
+  left: 0px;
+}
+
+#answer{
+  position: fixed;
+  border-radius: 20em;
+  border: 1px solid blue;
+  position: fixed;
+  bottom: 10em;
+  left: 10em;
+  height: 5em;
+  width: 5em;
+  text-align: center;
+}
+
+#answer:hover{
+  background-color: blue;
+  color: white;
+}
+
+textarea, input{
+  width: 60vw;
+  border: 1px solid blue;
+  border-radius: 2em;
+  padding: 2em;
+  font-family: 'selfModern';
+}
+
+input:focus, textarea:focus{
+  outline: none;
+}
+
+#kommentform button:hover {
+  background-color: blue;
+}

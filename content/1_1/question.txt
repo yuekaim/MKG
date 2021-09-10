@@ -93,3 +93,77 @@ Kommentsinbox:
   verified: 'true'
   id: ba09fd6cd24b6e5c9f784672ce42229b
   spamlevel: 0
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: hi.
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-10 22:05:00
+  status: 'true'
+  verified: 'true'
+  id: 291b2585a5a48002212689aa78514f6c
+  spamlevel: 0
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: >
+    Which actors / persons / collectives
+    should be represented? Please also name
+    concrete projects and works!Which actors
+    / persons / collectives should be
+    represented? Please also name concrete
+    projects and works!
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-10 22:10:00
+  status: 'true'
+  verified: 'true'
+  id: 110e00b169a12b45b7482f22fc488f3b
+  spamlevel: 0
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: here is a another comment
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-10 22:10:00
+  status: 'true'
+  verified: 'true'
+  id: 10178c46a121dfcb6d84d509050956c2
+  spamlevel: 0
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: hi
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-10 22:20:00
+  status: 'true'
+  verified: 'true'
+  id: 187123a7f9b3573347630f1090bfa08e
+  spamlevel: 0

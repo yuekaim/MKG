@@ -1,0 +1,27 @@
+Title: 5
+
+----
+
+Kommentsenabledonpage: true
+
+----
+
+Kommentsinbox:
+
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/5
+  target: http://localhost:8000/5
+  mentionof: http://localhost:8000/5
+  property: KOMMENT
+  komment: test answer on question 5.
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-10 22:55:00
+  status: 'true'
+  verified: 'true'
+  id: 2c87f60b7844c98594a743c6baf3ddce
+  spamlevel: 0
