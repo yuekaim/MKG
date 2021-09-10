@@ -3,8 +3,7 @@
 return [
   'debug'  => true,
   'panel' =>[
-      'install' => true,
-      'slug' => 'test'
+      'install' => true
     ],
   'home' => 'home',
   'komment-auto-publish' => true
