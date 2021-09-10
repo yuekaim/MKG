@@ -1,0 +1,95 @@
+Title: 1
+
+----
+
+Kommentsenabledonpage: true
+
+----
+
+Kommentsinbox:
+
+- 
+  avatar: null
+  author: ""
+  authorurl: ""
+  source: null
+  target: null
+  mentionof: null
+  property: null
+  komment: ""
+  quote: ""
+  kommenttype: ""
+  published: ""
+  status: 'false'
+  verified: 'false'
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-09 20:30:00
+  status: 'true'
+  verified: 'true'
+  id: aa5c723048467c0f52e5b6290ade4af4
+  spamlevel: 0
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test2
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-09 21:25:00
+  status: 'true'
+  verified: 'true'
+  id: 0685d2b895f785c6d140754b49dd104b
+  spamlevel: 0
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: Yuekai Miao
+  authorurl: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: ahjdljfhd.
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-10 11:10:00
+  status: 'true'
+  verified: 'true'
+  id: a4a962d1c35fd35917ca43a2d2ae0ece
+  spamlevel: 0
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: >
+    Which actors / persons / collectives
+    should be represented? Please also name
+    concrete projects and works!
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-10 11:15:00
+  status: 'true'
+  verified: 'true'
+  id: ba09fd6cd24b6e5c9f784672ce42229b
+  spamlevel: 0

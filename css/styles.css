@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Morlok";
+    src: url("../font/MorlokSchulbuch.otf");
+}
+
+@font-face {
+    font-family: "selfModern";
+    src: url("../font/bretagne_self-modern_regular.otf")
+}
+
+.arrow-link{
+  cursor: url("arrow3.png"), auto;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #0000ff;
+}
+
+body{
+  color: #0000ff;
+  font-family: selfModern;
+}
+
+.bg{
+  position: fixed;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  margin: 0;
+  overflow-y: scroll;
+
+  background-color: #EDEDED;
+  box-shadow: inset 0px 0px 10px #0000FF;
+  z-index: -1000;
+}
+
+.heading{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  margin: 1.5em 2em 1em 2em;
+  left: 0;
+
+  font-family: "Morlok";
+  font-size: 1.3em;
+}
+
+
+.menu{
+  position: fixed;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  right: 2em;
+}
+
+.menu-item{
+  margin-left: 1em;
+}
+
+.info{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 5em;
+  margin: 1.5em 3em 1em 1em;
+
+}
+
+.info-german, .info-english{
+  /* width: 40vw; */
+}
+
+.questions{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  left: 10vw;
+  top: 40vh;
+
+  font-family: "selfModern";
+}
+
+.question{
+  background: #FFFFFF;
+  border: 1px solid #0000FF;
+  box-sizing: border-box;
+  height: 20em;
+  width: 15em;
+  margin-right: 0em;
+  padding: 1em;
+}
+
+.question:hover{
+  box-shadow: 0 0 10px #0000ff55;
+  z-index: 100;
+}
+
+a:hover{
+  z-index: 100;
+}
+
+#question1{
+  transform: rotate(-22.36deg);
+  transition-duration: 0.8s;
+}
+
+#question1:hover{
+  transform: rotate(0deg);
+  transition-duration: 0.8s;
+}
+
+#question2{
+  transform: rotate(26.36deg) translateY(3em);
+  transition-duration: 0.8s;
+}
+
+#question2:hover{
+  transform: rotate(0deg) translateY(3em);
+  transition-duration: 0.8s;
+}
+
+#question3{
+  transform: rotate(-2.01deg) translate(2em, -2em);
+  transition-duration: 0.8s;
+}
+
+#question3:hover{
+  transform: rotate(0deg) translate(2em, -2em);
+  transition-duration: 0.8s;
+}
+
+#question4{
+  transform: rotate(-22.36deg) translate(2em, 0em);
+  transition-duration: 0.8s;
+}
+
+#question4:hover{
+  transform: rotate(0deg) translate(2em, 0em);
+  transition-duration: 0.8s;
+}
+
+#question5{
+  transform: rotate(21.43deg) translate(2em, 5em);
+  transition-duration: 0.8s;
+}
+
+#question5:hover{
+  transform: rotate(0deg) translate(2em, 5em);
+  transition-duration: 0.8s;
+}
+
+/* comment styles */
+.comments{
+  width: 60vw;
+  height: 80vw;
+  position: absolute;
+  right: 0;
+  top: 6em;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.single-komment{
+  border: 1px solid blue;
+  border-radius: 2em;
+  padding: 2em;
+}
+
+li{
+  list-style: none;
+}
+
+#url{display: none;}

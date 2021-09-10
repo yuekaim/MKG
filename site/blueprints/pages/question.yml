@@ -1,0 +1,5 @@
+title: Question
+
+sections:
+  komments:
+    extends: sections/komments

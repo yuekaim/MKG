@@ -1,0 +1,76 @@
+title: Home
+fields:
+  about_en:
+    label: Short Introduction (EN)
+    type: textarea
+    size: medium
+    width: 1/2
+  about_de:
+    label: Short Introduction (DE)
+    type: textarea
+    size: medium
+    width: 1/2
+  info:
+    label: Full Introduction
+    type: textarea
+    size: large
+  q1_de:
+    label: Question 1 (DE)
+    type: textarea
+    size: small
+    width: 1/2
+  q1_en:
+    label: Question 1 (EN)
+    type: textarea
+    size: small
+    width: 1/2
+  q2_de:
+    label: Question 2 (DE)
+    type: textarea
+    size: small
+    width: 1/2
+  q2_en:
+    label: Question 2 (EN)
+    type: textarea
+    size: small
+    width: 1/2
+  q2_de:
+    label: Question 2 (DE)
+    type: textarea
+    size: small
+    width: 1/2
+  q2_en:
+    label: Question 2 (EN)
+    type: textarea
+    size: small
+    width: 1/2
+  q3_de:
+    label: Question 3 (DE)
+    type: textarea
+    size: small
+    width: 1/2
+  q3_en:
+    label: Question 3 (EN)
+    type: textarea
+    size: small
+    width: 1/2
+  q4_de:
+    label: Question 4 (DE)
+    type: textarea
+    size: small
+    width: 1/2
+  q4_en:
+    label: Question 4 (EN)
+    type: textarea
+    size: small
+    width: 1/2
+  q5_de:
+    label: Question 5 (DE)
+    type: textarea
+    size: small
+    width: 1/2
+  q5_en:
+    label: Question 5 (EN)
+    type: textarea
+    size: small
+    width: 1/2

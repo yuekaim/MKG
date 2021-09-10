@@ -1,0 +1,85 @@
+Title: Home
+
+----
+
+About-en: Examples and illustrative material play an important role in the training of communication designers. What material should a contemporary collection of templates include?
+
+----
+
+About-de: In der Ausbildung von Kommunikationsdesigner*innen spielen Beispiele und Anschauungsmaterial eine wichtige Rolle. Welches Material sollte eine zeitgemäße Vorlagensammlung umfassen?
+
+----
+
+Info: 
+
+----
+
+Q1-de: Welche Akteur*innen / Personen / Kollektive sollten vertreten sein? Benenne gerne auch konkrete Projekte und Arbeiten!
+
+----
+
+Q1-en: Which actors / persons / collectives should be represented? Please also name concrete projects and works!
+
+----
+
+Q2-de: Welche Themen und Fragestellungen sollten in den Arbeiten verhandelt werden?
+
+----
+
+Q2-en: Which topics and questions should be addressed in the works?
+
+----
+
+Q3-de: Welche technologischen Veränderungen sollten nachvollziehbar werden und welches Material eignet sich dazu?
+
+----
+
+Q3-en: Which technological changes should be made comprehensible and which material is suitable for this?
+
+----
+
+Q4-de: Welche Texte (und ggfs. Materialien aus anderen Disziplinen) sollten Studierenden zugänglich gemacht werden?
+
+----
+
+Q4-en: Which texts (and, if applicable, materials from other disciplines) should be made accessible to students?
+
+----
+
+Q5-de: Hast Du weitere Wünsche und Anregungen?
+
+----
+
+Q5-en: Do you have further wishes and suggestions?
+
+----
+
+About-english: 
+
+----
+
+About-german: 
+
+----
+
+Q3: 
+
+----
+
+Q4: 
+
+----
+
+Q5: 
+
+----
+
+Q2: 
+
+----
+
+Q1:
+
+Welche Themen und Fragestellungen sollten in den Arbeiten verhandelt werden?
+ 
+Which topics and questions should be addressed in the works?
