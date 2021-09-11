@@ -18,6 +18,10 @@
   text-decoration: none;
 }
 
+a{
+  color: var(--main-color);
+}
+
 a:visited{
   color: var(--main-color);
 }
