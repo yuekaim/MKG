@@ -167,3 +167,20 @@ Kommentsinbox:
   verified: 'true'
   id: 187123a7f9b3573347630f1090bfa08e
   spamlevel: 0
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: hello
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-11 00:45:00
+  status: 'true'
+  verified: 'true'
+  id: b37bc174eb6d4d574cfcc8af432da0e0
+  spamlevel: 0

@@ -8,17 +8,22 @@
     src: url("../font/bretagne_self-modern_regular.otf")
 }
 
+:root {
+  --main-color: black;
+}
+
+
 .arrow-link{
-  cursor: url("arrow3.png"), auto;
+  cursor: url("arrow4.svg"), auto;
   text-decoration: none;
 }
 
 a:visited{
-  color: #0000ff;
+  color: var(--main-color);
 }
 
 body{
-  color: #0000ff;
+  color: var(--main-color);
   font-family: selfModern;
 }
 
@@ -34,7 +39,7 @@ body{
   overflow-y: scroll;
 
   background-color: #EDEDED;
-  box-shadow: inset 0px 0px 10px #0000FF;
+  box-shadow: inset 0px 0px 10px var(--main-color);
   z-index: -1000;
 }
 
@@ -87,7 +92,7 @@ body{
 
 .question{
   background: #FFFFFF;
-  border: 1px solid #0000FF;
+  border: 1px solid var(--main-color);
   box-sizing: border-box;
   height: 20em;
   width: 15em;
@@ -96,7 +101,7 @@ body{
 }
 
 .question:hover{
-  box-shadow: 0 0 10px #0000ff55;
+  box-shadow: 0 0 10px var(--main-color)55;
   z-index: 100;
 }
 
@@ -175,14 +180,22 @@ ul{
 }
 
 .single-komment{
-  border: 1px solid blue;
+  border: 1px solid var(--main-color);
   border-radius: 2em;
   padding: 2em;
+  transition-duration: 1s;
 }
 
 li{
   list-style: none;
   max-width: 20em;
+}
+
+.single-komment:hover{
+  border: 1px solid var(--main-color);
+  border-radius: 0em;
+  background-color: white;
+  transition-duration: 1s;
 }
 
 #url{display: none;}
@@ -220,23 +233,30 @@ li{
 #answer{
   position: fixed;
   border-radius: 20em;
-  border: 1px solid blue;
+  border: 1px solid var(--main-color);
   position: fixed;
-  bottom: 10em;
+  bottom: 6em;
   left: 10em;
   height: 5em;
   width: 5em;
+  /* line-height: 5em; */
   text-align: center;
+  background-color: #EDEDEDaa;
+  font-family: "Morlok";
+  font-size: 1.5em;
+  transition-duration: 0.5s;
 }
 
 #answer:hover{
-  background-color: blue;
+  cursor: none;
+  background-color: var(--main-color);
   color: white;
+  transition-duration: 0.5s;
 }
 
 textarea, input{
   width: 60vw;
-  border: 1px solid blue;
+  border: 1px solid var(--main-color);
   border-radius: 2em;
   padding: 2em;
   font-family: 'selfModern';
@@ -247,5 +267,5 @@ input:focus, textarea:focus{
 }
 
 #kommentform button:hover {
-  background-color: blue;
+  background-color: var(--main-color);
 }

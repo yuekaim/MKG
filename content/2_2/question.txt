@@ -6,4 +6,22 @@ Kommentsenabledonpage: true
 
 ----
 
-Kommentsinbox: 
+Kommentsinbox:
+
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/2
+  target: http://localhost:8000/2
+  mentionof: http://localhost:8000/2
+  property: KOMMENT
+  komment: comment test for question 2!
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-11 00:45:00
+  status: 'true'
+  verified: 'true'
+  id: 10e9821e522f2666afecdffa01256363
+  spamlevel: 0
