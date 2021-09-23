@@ -10,7 +10,29 @@ About-de: In der Ausbildung von Kommunikationsdesigner*innen spielen Beispiele u
 
 ----
 
-Info: 
+Info-en:
+
+Examples and illustrative material play an important role in the training of communication designers. What material should a contemporary collection of templates include?
+
+In vielen Kunstgewerbemuseen wurde um 1900 eine sogenannte Vorlagensammlung angelegt. Sie umfasste vorbildliche Arbeiten, die in der Lehre eingesetzt werden sollten. Damals waren das unter anderem Ornamentstiche und Beispiele für Drucktechniken oder Materialen und deren Verwendung. 
+
+Wie würde eine solche Vorlagensammlung heute aussehen? Welche Arbeiten und Materialien müsste sie bereithalten, um eine zeitgemäße Designausbildung zu unterstützen? 
+In diesem Projekt fokussieren wir auf die Ausbildung von Kommunikationsdesigner*innen. Und weil diese Frage nur kollektiv beantwortet werden kann, bitten wir Euch um Eure Meinung. 
+
+Die Antworten werden auf dieser Website gesammelt und sind für alle sichtbar. Ausgehend von den Ergebnissen werden wir das Projekt weiterentwickeln. Dies kann eine Ausstellung sein, eine Publikation, oder eine Diskussions- und Vortragsreihe. Und selbstverständlich die Ergänzung der Sammlung Grafik und Plakat des Museums für Kunst und Gewerbe um vorgeschlagene Positionen.
+
+----
+
+Info-de:
+
+In der Ausbildung von Kommunikationsdesigner*innen spielen Beispiele und Anschauungsmaterial eine wichtige Rolle. Welches Material sollte eine zeitgemäße Vorlagensammlung umfassen?
+
+In vielen Kunstgewerbemuseen wurde um 1900 eine sogenannte Vorlagensammlung angelegt. Sie umfasste vorbildliche Arbeiten, die in der Lehre eingesetzt werden sollten. Damals waren das unter anderem Ornamentstiche und Beispiele für Drucktechniken oder Materialen und deren Verwendung. 
+
+Wie würde eine solche Vorlagensammlung heute aussehen? Welche Arbeiten und Materialien müsste sie bereithalten, um eine zeitgemäße Designausbildung zu unterstützen? 
+In diesem Projekt fokussieren wir auf die Ausbildung von Kommunikationsdesigner*innen. Und weil diese Frage nur kollektiv beantwortet werden kann, bitten wir Euch um Eure Meinung. 
+
+Die Antworten werden auf dieser Website gesammelt und sind für alle sichtbar. Ausgehend von den Ergebnissen werden wir das Projekt weiterentwickeln. Dies kann eine Ausstellung sein, eine Publikation, oder eine Diskussions- und Vortragsreihe. Und selbstverständlich die Ergänzung der Sammlung Grafik und Plakat des Museums für Kunst und Gewerbe um vorgeschlagene Positionen.
 
 ----
 
@@ -51,6 +73,10 @@ Q5-de: Hast Du weitere Wünsche und Anregungen?
 ----
 
 Q5-en: Do you have further wishes and suggestions?
+
+----
+
+Info: 
 
 ----
 

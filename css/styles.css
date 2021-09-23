@@ -12,6 +12,9 @@
   --main-color: black;
 }
 
+body{
+  cursor: none;
+}
 
 .arrow-link{
   cursor: url("arrow4.svg"), auto;
@@ -19,15 +22,24 @@
 }
 
 a{
+  color: white;
+  text-decoration: none;
+}
+
+#title:hover{
+  color: red;
+}
+
+.questions a{
   color: var(--main-color);
 }
 
-a:visited{
+.questions a:visited{
   color: var(--main-color);
 }
 
 body{
-  color: var(--main-color);
+  color: white;
   font-family: selfModern;
 }
 
@@ -42,9 +54,10 @@ body{
   margin: 0;
   overflow-y: scroll;
 
-  background-color: #EDEDED;
-  box-shadow: inset 0px 0px 10px var(--main-color);
+  /* background-color: #EDEDED; */
+  /* box-shadow: inset 0px 0px 10px var(--main-color); */
   z-index: -1000;
+  background-color: black;
 }
 
 .heading{
@@ -65,17 +78,25 @@ body{
   display: flex;
   flex-direction: row;
   right: 2em;
+  bottom: 2em;
 }
 
 .menu-item{
   margin-left: 1em;
 }
 
+#title{
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+  font-size: 1.5em;
+}
+
 .info{
   position: absolute;
   display: flex;
   flex-direction: row;
-  top: 5em;
+  top: 2em;
+  left: 8em;
   margin: 1.5em 3em 1em 1em;
 
 }
@@ -89,7 +110,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   left: 10vw;
-  top: 40vh;
+  top: 30vh;
 
   font-family: "selfModern";
 }
@@ -102,6 +123,7 @@ body{
   width: 15em;
   margin-right: 0em;
   padding: 1em;
+  color: black;
 }
 
 .question:hover{
@@ -184,7 +206,7 @@ ul{
 }
 
 .single-komment{
-  border: 1px solid var(--main-color);
+  border: 1px solid white;
   border-radius: 2em;
   padding: 2em;
   transition-duration: 1s;
@@ -196,17 +218,22 @@ li{
 }
 
 .single-komment:hover{
-  border: 1px solid var(--main-color);
+  border: 1px solid white;
   border-radius: 0em;
   background-color: white;
   transition-duration: 1s;
+  color: black;
+}
+
+.single-komment p{
+  cursor: auto;
 }
 
 #url{display: none;}
 
 .question_page{
   position: fixed;
-  top: 10em;
+  top: 7em;
 }
 
 #commentform{
@@ -237,7 +264,7 @@ li{
 #answer{
   position: fixed;
   border-radius: 20em;
-  border: 1px solid var(--main-color);
+  /* border: 1px solid var(--main-color); */
   position: fixed;
   bottom: 6em;
   left: 10em;
@@ -245,17 +272,38 @@ li{
   width: 5em;
   /* line-height: 5em; */
   text-align: center;
-  background-color: #EDEDEDaa;
+  /* background-color: #EDEDEDaa; */
   font-family: "Morlok";
   font-size: 1.5em;
   transition-duration: 0.5s;
 }
 
-#answer:hover{
+#answer svg{
+  transform: translate(-30%, -50%);
+  z-index: -5;
+}
+
+#answer svg path {
+  transition:.5s all ease-in-out;
+}
+
+#answer svg:hover path{
+  d: path("M148 24.4999C119.932 24.4999 146.478 -7.5 77 2.49989C48.9315 9.15369 33.9999 56.0854 33.9999 82.0001C33.9999 107.915 4.45586 87.883 1.99987 118C-0.456124 148.117 56.2458 132.18 56.2458 140.935C56.2458 149.69 -5.36806 170.001 1.9999 192.764C9.36787 215.527 67.8458 166.208 91.6822 192.764C114 217.628 66.7715 255 91.6822 255C116.593 255 140.451 227.434 163.257 217.628C186.062 207.823 204.65 248.154 225 241.5C245.35 234.846 239.042 236.889 234.831 207.823C230.621 178.756 266.263 200.016 261 172C255.737 143.984 221.73 143.463 217 112.5C211.5 76.5001 242.69 31.3849 211.5 14.0001C181 -3.00011 176.068 24.4999 148 24.4999Z");
+  fill: black;
+  stroke: white;
+  transform: translate(2em, 2em);
+}
+
+/* #answer:hover{
   cursor: none;
   background-color: var(--main-color);
   color: white;
   transition-duration: 0.5s;
+} */
+
+#answer_text{
+  position: absolute;
+  top: -2em;
 }
 
 textarea, input{
@@ -273,3 +321,28 @@ input:focus, textarea:focus{
 #kommentform button:hover {
   background-color: var(--main-color);
 }
+
+.circle{
+  position: fixed;
+  width: 30vw;
+  height: 30vw;
+  left: 50vw;
+  top: 50vh;
+  border-radius: 1000px;
+  transform: translate(-50%, -50%);
+
+  background: white;
+  mix-blend-mode: difference;
+  filter: blur(20px);
+
+  z-index: 1000;
+  pointer-events: none;
+}
+
+/* #circle{
+  transform: translate(-50%, 0%);
+}
+
+#circle2{
+    transform: translate(-50%, -100%);
+} */

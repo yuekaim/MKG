@@ -132,6 +132,7 @@ Kirby::plugin('mauricerenck/komments', [
                         'name' => $kommentReceiver->setAuthorName($formData['author']),
                         'avatar' => $kommentReceiver->setAvatarFromEmail($formData['email']),
                         'url' => $kommentReceiver->setUrl($formData['author_url']),
+                        'age' => $kommentReceiver->setUrl($formData['author_age']),
                     ]
                 ];
 

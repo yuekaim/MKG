@@ -14,6 +14,7 @@ docReady(function () {
     const kommentEmail = document.querySelector('#kommentform #email');
     const kommentAuthor = document.querySelector('#kommentform #author');
     const kommentUrl = document.querySelector('#kommentform #author_url');
+    const kommentAge = document.querySelector('#kommentform #author_age');
     const timeField = document.querySelector('#kommentform .cts');
     const submitField = document.querySelector('#kommentform input[type=submit]');
     const spamIndicatorProgress = document.querySelector('#kommentform .spam-indicator .progress');
@@ -110,12 +111,14 @@ docReady(function () {
     kommentEmail.style.display = 'none';
     kommentAuthor.style.display = 'none';
     kommentUrl.style.display = 'none';
+    kommentAge.style.display = 'none';
 
     komment.addEventListener('focus', () => {
         setIndicator();
         kommentEmail.style.display = 'block';
         kommentAuthor.style.display = 'block';
         kommentUrl.style.display = 'block';
+        kommentAge.style.display = 'block';
     });
 
     kommentForm.addEventListener('submit', (event) => {

@@ -10,8 +10,12 @@ fields:
     type: textarea
     size: medium
     width: 1/2
-  info:
-    label: Full Introduction
+  info_en:
+    label: Full Introduction (EN)
+    type: textarea
+    size: large
+  info_de:
+    label: Full Introduction (DE)
     type: textarea
     size: large
   q1_de:

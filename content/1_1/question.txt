@@ -184,3 +184,37 @@ Kommentsinbox:
   verified: 'true'
   id: b37bc174eb6d4d574cfcc8af432da0e0
   spamlevel: 0
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test with age
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-22 21:40:00
+  status: 'true'
+  verified: 'false'
+  id: c93199d0d8f614ddca3e3a1aba4097c8
+  spamlevel: 0
+- 
+  avatar: >
+    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  author: cleo
+  authorurl: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test with age 2
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-09-23 12:00:00
+  status: 'true'
+  verified: 'false'
+  id: cef7427639ae1c1bdac1fb89dd00b9e9
+  spamlevel: 0

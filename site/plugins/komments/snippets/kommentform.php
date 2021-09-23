@@ -29,6 +29,8 @@
     <input type="email" name="email" id="email" placeholder="<?php echo t('mauricerenck.komments.form.label.email'); ?>">
     <input type="text" name="author" id="author" placeholder="<?php echo t('mauricerenck.komments.form.label.name'); ?>*" required value="<?php echo $formName; ?>">
     <input type="url" name="author_url" id="author_url" placeholder="<?php echo t('mauricerenck.komments.form.label.website'); ?>">
+<!-- additional input -->
+    <input type="text" name="age" id="author_age" placeholder="<?php echo t('mauricerenck.komments.form.label.age'); ?>">
     <div class="spam-indicator">
         <div class="progress"></div>
     </div>

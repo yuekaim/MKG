@@ -1,5 +1,6 @@
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
+<?php snippet('circle') ?>
 
 
 
@@ -9,9 +10,17 @@
     <div class="about_de">
       <?= $page->about_de() ?>
     </div>
+    <!-- <div class="info_de">
+      <?= $page->info_de() ?>
+    </div> -->
+
     <div class="about_en">
       <?= $page->about_en() ?>
     </div>
+    <!-- <div class="info_en">
+      <?= $page->info_en() ?>
+    </div> -->
+
 </div>
 
 <div class="questions">
