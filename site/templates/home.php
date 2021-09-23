@@ -6,21 +6,24 @@
 
 <!-- below is info and questions -->
 
-<div class="info">
+<div class="about">
     <div class="about_de">
       <?= $page->about_de() ?>
     </div>
-    <!-- <div class="info_de">
-      <?= $page->info_de() ?>
-    </div> -->
 
     <div class="about_en">
       <?= $page->about_en() ?>
     </div>
-    <!-- <div class="info_en">
-      <?= $page->info_en() ?>
-    </div> -->
 
+</div>
+
+<div class="info">
+  <div class="info_de">
+    <?= $page->info_de()->kirbytext() ?>
+  </div>
+  <div class="info_en">
+    <?= $page->info_en()->kirbytext() ?>
+  </div>
 </div>
 
 <div class="questions">

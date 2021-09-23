@@ -26,10 +26,6 @@ a{
   text-decoration: none;
 }
 
-#title:hover{
-  color: red;
-}
-
 .questions a{
   color: var(--main-color);
 }
@@ -89,20 +85,64 @@ body{
   transform: rotate(90deg);
   transform-origin: bottom left;
   font-size: 1.5em;
+  transition-duration: .5s;
+  /* padding: 1em; */
 }
 
-.info{
+#title:hover{
+  /* color: red; */
+  text-decoration: underline;
+  transition-duration: .5s;
+}
+
+#info_button{
+  cursor: url('expand.svg'), auto;
+}
+
+.about{
   position: absolute;
   display: flex;
   flex-direction: row;
   top: 2em;
-  left: 8em;
+  left: 10vw;
   margin: 1.5em 3em 1em 1em;
+  z-index: 800;
+
+  cursor: url('expand.svg'), auto;
+}
+
+.about:hover{
 
 }
 
-.info-german, .info-english{
-  /* width: 40vw; */
+.about_de, .about_en{
+  width: 40vw;
+  margin-right: 5vw;
+  /* background-color: #000000; */
+  /* border: 1px solid white; */
+}
+
+.info{
+  position: absolute;
+  display: none;
+  flex-direction: row;
+  top: 1em;
+  left: 10vw;
+  margin: 1.5em 3em 1em 1em;
+  z-index: 800;
+  /* padding: 0; */
+
+  cursor: url('hide.svg'), auto;
+}
+
+/* .info .flex{
+  display: flex;
+} */
+
+.info_de, .info_en{
+  /* background-color: #000000; */
+  width: 40vw;
+  margin-right: 5vw
 }
 
 .questions{
@@ -110,7 +150,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   left: 10vw;
-  top: 30vh;
+  top: 35vh;
 
   font-family: "selfModern";
 }
