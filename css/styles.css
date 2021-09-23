@@ -239,7 +239,7 @@ li{
 #commentform{
   display: none;
   position: fixed;
-  z-index: 100;
+  z-index: 2000;
 }
 
 #kommentform{
