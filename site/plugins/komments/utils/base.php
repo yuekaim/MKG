@@ -90,6 +90,7 @@ class KommentBaseUtils
             'avatar' => $komment->avatar()->value(),
             'author' => $komment->author()->value(),
             'authorurl' => $komment->authorUrl()->value(),
+            'author_age' => $komment->author_age()->value(),
             'source' => $komment->source()->value(),
             'target' => $komment->target()->value(),
             'mentionof' => $komment->mentionOf()->value(),

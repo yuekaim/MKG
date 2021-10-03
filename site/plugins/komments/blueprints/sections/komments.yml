@@ -24,7 +24,11 @@ fields:
       authorUrl:
         type: url
         label: Author Url
-        width: 3/6
+        width: 2/6
+      author_age:
+        type: text
+        label: Author Age
+        width: 1/6
       source:
         type: hidden
         label: Source

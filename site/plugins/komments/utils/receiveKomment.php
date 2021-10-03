@@ -74,7 +74,7 @@ class KommentReceiver
 
     public function requiredFieldsAreValid($komment)
     {
-        return (!is_null($komment['author']['avatar']) && !is_null($komment['author']['name']) && !is_null($komment['content']));
+        return (!is_null($komment['author']['name']) && !is_null($komment['content']));
     }
 
     public function isSpam($rawKommentData)
@@ -133,11 +133,20 @@ class KommentReceiver
         return null;
     }
 
-    public function setAvatarFromEmail(string $email)
+    // public function setAvatarFromEmail(string $email)
+    // {
+    //     if (V::email($email)) {
+    //         $mailHash = md5($email);
+    //         return 'https://www.gravatar.com/avatar/' . $mailHash;
+    //     }
+    //
+    //     return null;
+    // }
+
+    public function setAuthorAge($age)
     {
-        if (V::email($email)) {
-            $mailHash = md5($email);
-            return 'https://www.gravatar.com/avatar/' . $mailHash;
+        if (is_string($age)) {
+            return $age;
         }
 
         return null;

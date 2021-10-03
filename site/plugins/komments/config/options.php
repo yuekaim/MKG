@@ -3,7 +3,7 @@
 return [
     'debug' => false,
     'enable-webmention-support' => false,
-    'webmention-auto-publish' => true,
+    'webmention-auto-publish' => false,
     'komment-auto-publish' => true,
     'send-mention-on-update' => true,
     'send-limit-to-templates' => [],

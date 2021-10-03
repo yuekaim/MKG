@@ -20,7 +20,7 @@
                 <span class="date"><?php echo $komment['published']->published()->toDate('d.m.Y H:i'); ?></span>
             </div>
         <?php endif; ?>
-        - <?php echo $komment['author']; ?> <?php echo $komment['age']; ?>
+        - <?php echo $komment['author']; ?> <?php echo $komment['author_age']; ?>
         <!-- <a href="#kommentform" class="kommentReply <?php echo option('mauricerenck.komments.replyClassNames'); ?>" data-id="<?php echo $komment['id']; ?>" data-handle="<?php echo $komment['author']; ?>"><?php echo t('mauricerenck.komments.action.reply.text'); ?></a> -->
     </div>
 </li>
