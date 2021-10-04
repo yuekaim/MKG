@@ -353,6 +353,7 @@ li{
   pointer-events: none;
   position: absolute;
   top: -2em;
+  font-family: "selfModern";
 }
 
 textarea, input{
