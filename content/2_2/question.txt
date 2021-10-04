@@ -13,6 +13,9 @@ Kommentsinbox:
     https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
   author: cleo
   authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
   source: http://localhost:8000/2
   target: http://localhost:8000/2
   mentionof: http://localhost:8000/2
@@ -30,6 +33,9 @@ Kommentsinbox:
     https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
   author: cleo
   authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
   source: http://localhost:8000/2
   target: http://localhost:8000/2
   mentionof: http://localhost:8000/2
@@ -47,6 +53,9 @@ Kommentsinbox:
     https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
   author: cleo
   authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
   source: http://localhost:8000/2
   target: http://localhost:8000/2
   mentionof: http://localhost:8000/2
@@ -58,4 +67,137 @@ Kommentsinbox:
   status: 'true'
   verified: 'true'
   id: 0b7ee805195696a9d9bf8105fea696ef
+  spamlevel: 0
+- 
+  avatar: null
+  author: test, 1234, designer
+  authorurl: https://www.google.com/
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/2
+  target: http://localhost:8000/2
+  mentionof: http://localhost:8000/2
+  property: KOMMENT
+  komment: tesaeasdfasdf
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 04:40:00
+  status: 'true'
+  verified: 'true'
+  id: 48bce6b82f13aadfeb3c1ebbd0503a37
+  spamlevel: 0
+- 
+  avatar: null
+  author: cleo, 123, test
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/2
+  target: http://localhost:8000/2
+  mentionof: http://localhost:8000/2
+  property: KOMMENT
+  komment: test refresh
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 04:45:00
+  status: 'true'
+  verified: 'true'
+  id: a95977e5581b22ae3b049e88746027e2
+  spamlevel: 0
+- 
+  avatar: null
+  author: cleo, 25, adsflakdjf
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/2
+  target: http://localhost:8000/2
+  mentionof: http://localhost:8000/2
+  property: KOMMENT
+  komment: set time out
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 04:45:00
+  status: 'true'
+  verified: 'true'
+  id: 8d3bf522049c50022b44cd98aa720ff0
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/2
+  target: http://localhost:8000/2
+  mentionof: http://localhost:8000/2
+  property: KOMMENT
+  komment: test time out
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 04:50:00
+  status: 'true'
+  verified: 'true'
+  id: 04d9ec1ffbf7bcefcbe82fac58892aa8
+  spamlevel: 0
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/2
+  target: http://localhost:8000/2
+  mentionof: http://localhost:8000/2
+  property: KOMMENT
+  komment: delay
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 04:50:00
+  status: 'true'
+  verified: 'true'
+  id: 79bc5c8bb90fec028b95f81137d775c8
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/2
+  target: http://localhost:8000/2
+  mentionof: http://localhost:8000/2
+  property: KOMMENT
+  komment: blur disappear
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 04:50:00
+  status: 'true'
+  verified: 'true'
+  id: dc3bfb80c18b7669fc7b63934227b7ab
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/2
+  target: http://localhost:8000/2
+  mentionof: http://localhost:8000/2
+  property: KOMMENT
+  komment: simulate click
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 04:50:00
+  status: 'true'
+  verified: 'true'
+  id: 608e471355a42707a8dae43af168330e
   spamlevel: 0

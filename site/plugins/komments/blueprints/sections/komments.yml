@@ -23,12 +23,18 @@ fields:
         width: 2/6
       authorUrl:
         type: url
-        label: Author Url
+        label: Relevant Link
         width: 2/6
-      author_age:
+      authorAge:
         type: text
         label: Author Age
         width: 1/6
+      imgUrl:
+        type: url
+        label: Image Url
+      imgText:
+        type: text
+        lable: Image text
       source:
         type: hidden
         label: Source

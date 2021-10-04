@@ -12,117 +12,24 @@ Kommentsinbox:
   avatar: >
     https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
   author: cleo
-  authorurl: ""
-  author_age: "25"
-  source: http://localhost:8000/1
-  target: http://localhost:8000/1
-  mentionof: http://localhost:8000/1
-  property: KOMMENT
-  komment: test
-  quote: ""
-  kommenttype: KOMMENT
-  published: 2021-09-09 20:30:00
-  status: 'true'
-  verified: 'true'
-  id: aa5c723048467c0f52e5b6290ade4af4
-  spamlevel: 0
-- 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
-  author: cleo
-  authorurl: ""
-  author_age: ""
-  source: http://localhost:8000/1
-  target: http://localhost:8000/1
-  mentionof: http://localhost:8000/1
-  property: KOMMENT
-  komment: test2
-  quote: ""
-  kommenttype: KOMMENT
-  published: 2021-09-09 21:25:00
-  status: 'true'
-  verified: 'true'
-  id: 0685d2b895f785c6d140754b49dd104b
-  spamlevel: 0
-- 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
-  author: Yuekai Miao
-  authorurl: ""
-  author_age: ""
-  source: http://localhost:8000/1
-  target: http://localhost:8000/1
-  mentionof: http://localhost:8000/1
-  property: KOMMENT
-  komment: ahjdljfhd.
-  quote: ""
-  kommenttype: KOMMENT
-  published: 2021-09-10 11:10:00
-  status: 'true'
-  verified: 'true'
-  id: a4a962d1c35fd35917ca43a2d2ae0ece
-  spamlevel: 0
-- 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
-  author: cleo
-  authorurl: ""
-  author_age: ""
+  authorurl: https://bus.group
+  authorage: ""
+  imgurl: >
+    https://i.vimeocdn.com/video/899474205-01f60f42308c3ceb88c152fc118c0e0c1a5df049371bd6685b95b31b60049084-d_640x800
+  imgtext: 'bus.group '
   source: http://localhost:8000/1
   target: http://localhost:8000/1
   mentionof: http://localhost:8000/1
   property: KOMMENT
   komment: >
-    Which actors / persons / collectives
-    should be represented? Please also name
-    concrete projects and works!
-  quote: ""
-  kommenttype: KOMMENT
-  published: 2021-09-10 11:15:00
-  status: 'true'
-  verified: 'true'
-  id: ba09fd6cd24b6e5c9f784672ce42229b
-  spamlevel: 0
-- 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
-  author: cleo
-  authorurl: ""
-  author_age: ""
-  source: http://localhost:8000/1
-  target: http://localhost:8000/1
-  mentionof: http://localhost:8000/1
-  property: KOMMENT
-  komment: hi.
-  quote: ""
-  kommenttype: KOMMENT
-  published: 2021-09-10 22:05:00
-  status: 'true'
-  verified: 'true'
-  id: 291b2585a5a48002212689aa78514f6c
-  spamlevel: 0
-- 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
-  author: cleo
-  authorurl: ""
-  author_age: ""
-  source: http://localhost:8000/1
-  target: http://localhost:8000/1
-  mentionof: http://localhost:8000/1
-  property: KOMMENT
-  komment: >
-    Which actors / persons / collectives
-    should be represented? Please also name
-    concrete projects and works!Which actors
-    / persons / collectives should be
-    represented? Please also name concrete
-    projects and works!
+    this is a comment with a test image
+    linked
   quote: ""
   kommenttype: KOMMENT
   published: 2021-09-10 22:10:00
   status: 'true'
   verified: 'true'
+  author_age: ""
   id: 110e00b169a12b45b7482f22fc488f3b
   spamlevel: 0
 - 
@@ -130,7 +37,9 @@ Kommentsinbox:
     https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
   author: cleo
   authorurl: ""
-  author_age: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
   source: http://localhost:8000/1
   target: http://localhost:8000/1
   mentionof: http://localhost:8000/1
@@ -141,165 +50,203 @@ Kommentsinbox:
   published: 2021-09-10 22:10:00
   status: 'true'
   verified: 'true'
+  author_age: ""
   id: 10178c46a121dfcb6d84d509050956c2
   spamlevel: 0
 - 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
+  avatar: null
   author: cleo
   authorurl: ""
-  author_age: ""
+  authorage: "25"
+  imgurl: >
+    https://i.vimeocdn.com/video/899474205-01f60f42308c3ceb88c152fc118c0e0c1a5df049371bd6685b95b31b60049084-d_640x800
+  imgtext: ""
   source: http://localhost:8000/1
   target: http://localhost:8000/1
   mentionof: http://localhost:8000/1
   property: KOMMENT
-  komment: hi
+  komment: test with age only image no link
   quote: ""
   kommenttype: KOMMENT
-  published: 2021-09-10 22:20:00
+  published: 2021-10-04 00:45:00
   status: 'true'
   verified: 'true'
-  id: 187123a7f9b3573347630f1090bfa08e
-  spamlevel: 0
-- 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
-  author: cleo
-  authorurl: ""
   author_age: ""
-  source: http://localhost:8000/1
-  target: http://localhost:8000/1
-  mentionof: http://localhost:8000/1
-  property: KOMMENT
-  komment: hello
-  quote: ""
-  kommenttype: KOMMENT
-  published: 2021-09-11 00:45:00
-  status: 'true'
-  verified: 'true'
-  id: b37bc174eb6d4d574cfcc8af432da0e0
-  spamlevel: 0
-- 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
-  author: cleo
-  authorurl: ""
-  author_age: ""
-  source: http://localhost:8000/1
-  target: http://localhost:8000/1
-  mentionof: http://localhost:8000/1
-  property: KOMMENT
-  komment: test with age
-  quote: ""
-  kommenttype: KOMMENT
-  published: 2021-09-22 21:40:00
-  status: 'true'
-  verified: 'false'
-  id: c93199d0d8f614ddca3e3a1aba4097c8
-  spamlevel: 0
-- 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
-  author: cleo
-  authorurl: ""
-  author_age: ""
-  source: http://localhost:8000/1
-  target: http://localhost:8000/1
-  mentionof: http://localhost:8000/1
-  property: KOMMENT
-  komment: test with age 2
-  quote: ""
-  kommenttype: KOMMENT
-  published: 2021-09-23 12:00:00
-  status: 'true'
-  verified: 'false'
-  id: cef7427639ae1c1bdac1fb89dd00b9e9
-  spamlevel: 0
-- 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
-  author: yuekai
-  authorurl: ""
-  author_age: "25"
-  source: http://localhost:8000/1
-  target: http://localhost:8000/1
-  mentionof: http://localhost:8000/1
-  property: KOMMENT
-  komment: test
-  quote: ""
-  kommenttype: KOMMENT
-  published: 2021-09-26 15:25:00
-  status: 'true'
-  verified: 'false'
-  id: 1d234b905b8bf73b1330d9dcff8c6778
-  spamlevel: 0
-- 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
-  author: miao
-  authorurl: ""
-  author_age: ""
-  source: http://localhost:8000/1
-  target: http://localhost:8000/1
-  mentionof: http://localhost:8000/1
-  property: KOMMENT
-  komment: test age again
-  quote: ""
-  kommenttype: KOMMENT
-  published: 2021-10-03 18:55:00
-  status: 'true'
-  verified: 'true'
-  id: ca5d4746333cc6135dd4b37cd385935c
-  spamlevel: 0
-- 
-  avatar: >
-    https://www.gravatar.com/avatar/ce5bf479cf59a44e07a0c845f9d5c19c
-  author: cleo
-  authorurl: ""
-  author_age: "25"
-  source: http://localhost:8000/1
-  target: http://localhost:8000/1
-  mentionof: http://localhost:8000/1
-  property: KOMMENT
-  komment: test
-  quote: ""
-  kommenttype: KOMMENT
-  published: 2021-10-03 19:00:00
-  status: 'true'
-  verified: 'true'
-  id: d00aaee2101b96b0e7e16ee100ada101
+  id: d892d0ef1160c57f984f12ebed69ff40
   spamlevel: 0
 - 
   avatar: null
   author: cleo
   authorurl: ""
-  author_age: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
   source: http://localhost:8000/1
   target: http://localhost:8000/1
   mentionof: http://localhost:8000/1
   property: KOMMENT
-  komment: test without email
+  komment: test json
   quote: ""
   kommenttype: KOMMENT
-  published: 2021-10-03 21:05:00
+  published: 2021-10-04 00:50:00
   status: 'true'
   verified: 'true'
-  id: a0d937012844659589572d80236ba609
+  author_age: "25"
+  id: 3c92b3dd61f20506e00dceebc3a9b5c7
+  spamlevel: 0
+- 
+  avatar: null
+  author: cleo
+  authorurl: https://google.com
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test with url and no image
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 00:50:00
+  status: 'true'
+  verified: 'true'
+  author_age: ""
+  id: 7f07c50c032a738bdd1b029a6b28e654
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test json
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 00:50:00
+  status: 'true'
+  verified: 'true'
+  author_age: ""
+  id: d7a1e4edf86e8718b2a7efd24876f8c2
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: https://formundkonzept.de/
+  authorage: ""
+  imgurl: >
+    https://formundkonzept.de/wp-content/uploads/2021/04/km02.gif
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test another image
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 01:30:00
+  status: 'true'
+  verified: 'true'
+  id: c11f47692645653477e99ad9e4cd5e70
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: lsjdfhljdfhg
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 01:30:00
+  status: 'true'
+  verified: 'true'
+  id: 080cb5451b33ee25af9f7332cecdbaea
   spamlevel: 0
 - 
   avatar: null
   author: cleo
   authorurl: ""
-  author_age: ""
+  authorage: ""
+  imgurl: >
+    https://www.dbz.de/imgs/1/5/3/0/3/5/2/05601765124254cc.jpg
+  imgtext: ""
   source: http://localhost:8000/1
   target: http://localhost:8000/1
   mentionof: http://localhost:8000/1
   property: KOMMENT
-  komment: test with age again
+  komment: testaekjalsdjah
   quote: ""
   kommenttype: KOMMENT
-  published: 2021-10-03 21:10:00
+  published: 2021-10-04 01:35:00
   status: 'true'
   verified: 'true'
-  id: b8649d33be9df8a78f991093b0ee4fcb
+  id: f25504b9588fa494cb4685fcc94f1ddd
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: asdfasdfasdf
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 01:40:00
+  status: 'true'
+  verified: 'true'
+  id: 16714d2c3e330740f86cbf1cb29f5c1f
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: asdfaksdhfadf
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 01:40:00
+  status: 'true'
+  verified: 'true'
+  id: 89801a52117f40a9d0aaeb58d1cf7e1c
+  spamlevel: 100
+- 
+  avatar: null
+  author: json
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: jsonjson
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 01:45:00
+  status: 'true'
+  verified: 'true'
+  id: c8818b2beb4436f3f9966a7e714bb163
   spamlevel: 0

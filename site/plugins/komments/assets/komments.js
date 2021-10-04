@@ -22,6 +22,7 @@ docReady(function () {
     const formFeedback = document.querySelector('#kommentform .form-feedback');
     const replyLinks = document.querySelectorAll('.kommentReply');
     const replyHandleDisplay = kommentForm.querySelector('.replyHandleDisplay');
+    const blurbg = kommentForm.querySelector('#commentform_bg');
 
     let duration = {
         indicator: 0,
@@ -36,7 +37,7 @@ docReady(function () {
         }
 
         timeField.value = 0;
-        submitField.disabled = true;
+        submitField.disabled = false;
 
         duration.timer = window.setInterval(() => {
             duration.indicator += 10;
@@ -115,14 +116,16 @@ docReady(function () {
 
     komment.addEventListener('focus', () => {
         setIndicator();
-        kommentEmail.style.display = 'block';
+        // kommentEmail.style.display = 'block';
         kommentAuthor.style.display = 'block';
         kommentUrl.style.display = 'block';
-        kommentAge.style.display = 'block';
+        // kommentAge.style.display = 'block';
     });
 
     kommentForm.addEventListener('submit', (event) => {
         sendKomment(event);
+        blurbg.click();
+        setTimeout(() => { location.reload(); }, 1000);
     });
 
 

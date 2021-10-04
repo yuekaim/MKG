@@ -37,7 +37,7 @@ return [
                                     'image' => $komment['avatar'],
                                     'title' => (string) $item->title(),
                                     'url' => $item->panelUrl(),
-                                    // 'author_age' => $komment['author_age'],
+                                    'age' => $komment['author_age'],
                                 ];
                             }
                         }
@@ -63,11 +63,12 @@ return [
                                 $spamKomments[] = [
                                     'author' => $komment['author'],
                                     'komment' => $komment['komment'],
-                                    // 'author_age' => $komment['author_age'],
+                                    'author_age' => $komment['author_age'],
                                     'kommentType' => (isset($komment['kommenttype'])) ? $komment['kommenttype'] : 'komment', // backward compatiblity
                                     'image' => $komment['avatar'],
                                     'title' => (string) $item->title(),
                                     'url' => $item->panelUrl(),
+                                    'age' => $komment['author_age'],
                                 ];
                             }
                         }

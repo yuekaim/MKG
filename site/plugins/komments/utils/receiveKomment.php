@@ -28,6 +28,7 @@ class KommentReceiver
             'avatar' => $this->setUrl($webmention['author']['avatar']),
             'author' => $webmention['author']['name'],
             'authorUrl' => $this->setUrl($webmention['author']['url']),
+            'authorAge' => $this->setUrl($webmention['author']['age']),
             'source' => $this->setUrl($webmention['source']),
             'target' => $this->setUrl($webmention['target']),
             'mentionOf' => is_null($webmention['mentionOf']) ? $this->setUrl($webmention['target']) : $webmention['mentionOf'],

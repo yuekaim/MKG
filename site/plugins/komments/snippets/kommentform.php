@@ -31,7 +31,7 @@
     <input type="url" name="author_url" id="author_url" placeholder="<?php echo t('mauricerenck.komments.form.label.website'); ?>">
 <!-- additional input -->
     <input type="text" name="author_age" id="author_age" placeholder="<?php echo t('mauricerenck.komments.form.label.age'); ?>">
-    
+
     <div class="spam-indicator">
         <div class="progress"></div>
     </div>
@@ -42,7 +42,7 @@
     <input type="hidden" name="replyTo" value="">
     <input type="hidden" name="replyHandle" value="">
     <input type="hidden" name="cts" value="" class="cts">
-    <!-- <span class="komment-privacy"><?php echo t('mauricerenck.komments.form.privacy'); ?></span> -->
-    <input type="submit" value="<?php echo t('mauricerenck.komments.form.submit'); ?>" class="<?php echo option('mauricerenck.komments.form.submit.classNames', 'button button-tiny button-primary'); ?>">
+    <span class="komment-privacy"><?php echo t('mauricerenck.komments.form.privacy'); ?></span>
+    <input type="submit" value="<?php echo t('mauricerenck.komments.form.submit'); ?>" class="<?php echo option('mauricerenck.komments.form.submit.classNames', 'button button-tiny button-primary'); ?>" style="width: 100%;">
 </form>
 <?php echo js(['/media/plugins/mauricerenck/komments/komments.js']); ?>

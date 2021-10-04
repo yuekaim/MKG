@@ -13,7 +13,7 @@
 }
 
 body{
-  cursor: none;
+  cursor: url("dot.svg"), auto;
 }
 
 .arrow-link{
@@ -118,6 +118,8 @@ body{
 .about_de, .about_en{
   width: 40vw;
   margin-right: 5vw;
+
+  font-size: 1.2em;
   /* background-color: #000000; */
   /* border: 1px solid white; */
 }
@@ -128,7 +130,7 @@ body{
   flex-direction: row;
   top: 1em;
   left: 10vw;
-  margin: 1.5em 3em 1em 1em;
+  margin: 1.3em 3em 1em 1em;
   z-index: 800;
   /* padding: 0; */
 
@@ -142,7 +144,8 @@ body{
 .info_de, .info_en{
   /* background-color: #000000; */
   width: 40vw;
-  margin-right: 5vw
+  margin-right: 5vw;
+  font-size: 1.2em;
 }
 
 .questions{
@@ -150,7 +153,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   left: 10vw;
-  top: 35vh;
+  top: 31vh;
 
   font-family: "selfModern";
 }
@@ -164,6 +167,8 @@ body{
   margin-right: 0em;
   padding: 1em;
   color: black;
+
+  font-size: 1em;
 }
 
 .question:hover{
@@ -181,7 +186,7 @@ a:hover{
 }
 
 #question1:hover{
-  transform: rotate(0deg);
+  transform: rotate(0deg) scale(1.2);
   transition-duration: 0.8s;
 }
 
@@ -191,7 +196,7 @@ a:hover{
 }
 
 #question2:hover{
-  transform: rotate(0deg) translateY(3em);
+  transform: rotate(0deg) translateY(3em) scale(1.2);
   transition-duration: 0.8s;
 }
 
@@ -201,7 +206,7 @@ a:hover{
 }
 
 #question3:hover{
-  transform: rotate(0deg) translate(2em, -2em);
+  transform: rotate(0deg) translate(2em, -2em) scale(1.2);
   transition-duration: 0.8s;
 }
 
@@ -211,7 +216,7 @@ a:hover{
 }
 
 #question4:hover{
-  transform: rotate(0deg) translate(2em, 0em);
+  transform: rotate(0deg) translate(2em, 0em) scale(1.2);
   transition-duration: 0.8s;
 }
 
@@ -221,7 +226,7 @@ a:hover{
 }
 
 #question5:hover{
-  transform: rotate(0deg) translate(2em, 5em);
+  transform: rotate(0deg) translate(2em, 5em) scale(1.2);
   transition-duration: 0.8s;
 }
 
@@ -232,6 +237,8 @@ a:hover{
   position: absolute;
   right: 0;
   top: 6em;
+
+  font-size: 1.2em;
 }
 
 h5{
@@ -257,13 +264,13 @@ li{
   max-width: 20em;
 }
 
-.single-komment:hover{
+/* .single-komment:hover{
   border: 1px solid white;
   border-radius: 0em;
   background-color: white;
   transition-duration: 1s;
   color: black;
-}
+} */
 
 .single-komment p{
   cursor: auto;
@@ -294,7 +301,7 @@ li{
   position: fixed;
   height: 100vh;
   width: 100vw;
-  background-color: rgba(255, 255, 255, 0.3);
+  /* background-color: rgba(255, 255, 255, 0.3); */
   -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
   top: 0px;
@@ -316,10 +323,11 @@ li{
   font-family: "Morlok";
   font-size: 1.5em;
   transition-duration: 0.5s;
+  cursor: url('expand.svg'), auto;
 }
 
 #answer svg{
-  transform: translate(-30%, -50%);
+  transform: translate(-20%, -40%);
   z-index: -5;
 }
 
@@ -328,10 +336,10 @@ li{
 }
 
 #answer svg:hover path{
-  d: path("M148 24.4999C119.932 24.4999 146.478 -7.5 77 2.49989C48.9315 9.15369 33.9999 56.0854 33.9999 82.0001C33.9999 107.915 4.45586 87.883 1.99987 118C-0.456124 148.117 56.2458 132.18 56.2458 140.935C56.2458 149.69 -5.36806 170.001 1.9999 192.764C9.36787 215.527 67.8458 166.208 91.6822 192.764C114 217.628 66.7715 255 91.6822 255C116.593 255 140.451 227.434 163.257 217.628C186.062 207.823 204.65 248.154 225 241.5C245.35 234.846 239.042 236.889 234.831 207.823C230.621 178.756 266.263 200.016 261 172C255.737 143.984 221.73 143.463 217 112.5C211.5 76.5001 242.69 31.3849 211.5 14.0001C181 -3.00011 176.068 24.4999 148 24.4999Z");
+  d: path("M172 22.4999C143.932 22.4999 173.464 1 105.398 1C77.3298 7.65379 59.6523 39.0884 59.6523 65.0031C59.6523 90.9179 3.65008 82.9466 1.19409 113.064C-1.2619 143.181 20.1525 175.003 33.6525 182.003C41.4248 186.033 82.7845 159.24 90.1524 182.003C97.5204 204.766 39.4494 244.504 74.8858 248.706C110.322 252.909 125.742 232.003 150.652 232.003C175.563 232.003 197.347 266.309 220.152 256.503C242.958 246.698 215.803 208.157 236.152 201.503C256.502 194.849 288.194 251.393 283.984 222.326C279.773 193.259 261.263 160.016 256 132C250.737 103.984 295.913 132.486 268.897 74.0032C241.881 15.5199 241.463 70.0138 215.5 45.4999C189.537 20.9859 200.068 22.4999 172 22.4999Z");
   fill: black;
   stroke: white;
-  transform: translate(2em, 2em);
+  /* transform: translate(2em, 2em); */
 }
 
 /* #answer:hover{
@@ -342,6 +350,7 @@ li{
 } */
 
 #answer_text{
+  pointer-events: none;
   position: absolute;
   top: -2em;
 }
@@ -378,6 +387,87 @@ input:focus, textarea:focus{
   z-index: 1000;
   pointer-events: none;
 }
+
+/* kommant img */
+.komment-with-img{
+  border-radius: 2em 2em 0em 2em;
+  position: relative;
+}
+
+.komment-with-img:hover{
+  /* z-index: 5000; */
+}
+
+.img-container{
+  /* display: none; */
+  position: fixed;
+  /* z-index: 3000 !important; */
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0;
+  transition-duration: 1s;
+  /* left alighed images */
+  /* position: fixed;
+  z-index: 3000;
+  left: 0;
+  top: 0;
+  width: 40vw;
+  background-color: black;
+  height: 100vh;
+  opacity: 0;
+  pointer-events: none;
+  object-fit: cover; */
+}
+
+.img-container img{
+  /* object-fit: scale-down; */
+  max-width: 30vw;
+  max-height: 50vh;
+  border: 1px solid black;
+  box-shadow: 0 0 100px white;
+}
+
+.komment-with-img:hover .img-container{
+  opacity: 1;
+  transition-duration: 1s;
+  /* display: block; */
+}
+
+
+.linked-komment:hover li{
+  border: 1px solid black;
+  border-radius: 0em;
+  background-color: white;
+  transition-duration: .5s;
+  color: black;
+}
+
+.komment-with-img:hover{
+  border-radius: 0em;
+  transition-duration: .5s;
+}
+
+.linked-komment li{
+  border: 1px dashed white;
+  /* cursor: url("arrow4.svg"), auto; */
+}
+
+.linked-komment a{
+  /* font-size: 2em; */
+  /* cursor: url("arrow4.svg"), auto; */
+}
+
+.linked-komment:hover a{
+  color: blue;
+}
+
+.komment-privacy{
+  margin-left: 3em;
+  background-color: black;
+}
+
 
 /* #circle{
   transform: translate(-50%, 0%);
