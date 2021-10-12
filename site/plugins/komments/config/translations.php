@@ -13,7 +13,7 @@ return [
         'mauricerenck.komments.externalReply' => 'Answer elsewhere',
         'mauricerenck.komments.form.submit' => 'send',
         'mauricerenck.komments.form.privacy' => 'By submitting your data, you agree that all entered data may be saved and displayed as a comment.',
-        'mauricerenck.komments.form.label.comment' => 'Comment',
+        'mauricerenck.komments.form.label.comment' => 'Answer',
         'mauricerenck.komments.form.label.email' => 'E-mail',
         'mauricerenck.komments.form.label.name' => 'Your name, Age, Profession ',
         'mauricerenck.komments.form.label.website' => 'Relavant Link',

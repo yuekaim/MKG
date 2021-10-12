@@ -18,8 +18,8 @@
           <?php if ($komment['komment']->komment()->isNotEmpty()): ?>
               <div class="komment-text">
                   <?php echo $komment['komment']->komment()->kirbytext(); ?>
-                  <?php if($komment['authorurl'] !== "") echo "<a href='" . $komment['authorurl'] . "' target='_blank'>↪</a>"; ?>
-                  <br>
+                  <?php if($komment['authorurl'] !== "") echo "<a href='" . $komment['authorurl'] . "' target='_blank'>" . $komment['authorurl'] . "</a>"; ?>
+                  <br><br>
                   <?php echo $komment['author']; ?> <?php echo $komment['author_age']; ?><br>
 
                   <span class="date" style="font-size: 0.6em"><?php echo $komment['published']->published()->toDate('d.m.Y'); ?></span>

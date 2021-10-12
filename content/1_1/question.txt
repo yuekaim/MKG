@@ -250,3 +250,23 @@ Kommentsinbox:
   verified: 'true'
   id: c8818b2beb4436f3f9966a7e714bb163
   spamlevel: 0
+- 
+  avatar: null
+  author: name, 1234, profession
+  authorurl: https://google.com
+  authorage: ""
+  imgurl: >
+    https://www.fluwel.de/media/catalog/product/cache/6548503aa833e68ffdc45b75be6da2e5/c/r/crocus_flower_record-web_1200_1.jpg
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: ajkdhsljhadsf
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-04 11:05:00
+  status: 'true'
+  verified: 'true'
+  id: 6bfd5fd056351414214708f61c3205fc
+  spamlevel: 0
