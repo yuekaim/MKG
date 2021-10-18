@@ -441,7 +441,7 @@ input:focus, textarea:focus{
 } */
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     #title{
       font-size: 1em;
@@ -478,10 +478,19 @@ input:focus, textarea:focus{
     }
 
     .info::before{
-      content: "(touch anywhere to close info)";
+      content: "X";
       background-color: black;
       /* position: fixed; */
       font-size: 1.5em;
+      /* text-align: right; */
+    }
+
+    .imprint::before{
+      content: "X";
+      background-color: black;
+      /* position: fixed; */
+      font-size: 1.5em;
+      /* text-align: right; */
     }
 
     .about_en, .about_de, .info_de, .info_en, .imprint_txt{
@@ -493,4 +502,42 @@ input:focus, textarea:focus{
     .questions{
       top: 100vh;
     }
+
+    .img-container{
+      /* pointer-events: none; */
+      transition-duration: 1s;
+      opacity: 1;
+      position: relative;
+      transform: none;
+      left: 0;
+      top:0;
+      width: 100%;
+    }
+
+    .img-container img{
+      /* object-fit: scale-down; */
+      max-width: 80vw;
+      max-height: 30vh;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .img-container{
+    /* pointer-events: none; */
+    transition-duration: 1s;
+    opacity: 1;
+    position: relative;
+    transform: none;
+    left: 0;
+    top:0;
+    width: 100%;
+  }
+
+  .img-container img{
+    /* object-fit: scale-down; */
+    max-width: 40vw;
+    max-height: 30vh;
+  }
+
 }
