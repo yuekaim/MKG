@@ -78,3 +78,7 @@ fields:
     type: textarea
     size: small
     width: 1/2
+  imprint:
+    label: Imprint
+    type: textarea
+    size: medium

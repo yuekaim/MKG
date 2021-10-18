@@ -26,6 +26,13 @@
   </div>
 </div>
 
+<div class="imprint">
+  <div class="imprint_txt">
+    <?= $page->imprint()->kirbytext() ?>
+  </div>
+</div>
+
+
 <div class="questions">
   <a class="arrow-link" href="1"><div class="question" id="question1">
     1.<br><br><?= $page->q1_de() ?><br><br><?= $page->q1_en() ?>

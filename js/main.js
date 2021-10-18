@@ -43,10 +43,28 @@ $("#info_button").click(function(){
                 opacity: 1
             }, 300);
   // $(".info").first().fadeIn(300);
+  $(".about").fadeOut(300);
   $(".questions").first().fadeOut(300);
+  $(".imprint").fadeOut(300);
 });
 
 $(".info").click(function(){
   $(".info").first().fadeOut(300);
   $(".questions").first().fadeIn(300);
+  $(".about").fadeIn(300);
+});
+
+$("#imprint_button").click(function(){
+  $('.imprint').first().css({opacity: 0, display: 'flex'}).animate({
+                opacity: 1
+            }, 300);
+  $(".about").fadeOut(300);
+  $(".questions").first().fadeOut(300);
+  $(".info").fadeOut(300);
+});
+
+$(".imprint").click(function(){
+  $(".imprint").first().fadeOut(300);
+  $(".questions").first().fadeIn(300);
+  $(".about").fadeIn(300);
 });
