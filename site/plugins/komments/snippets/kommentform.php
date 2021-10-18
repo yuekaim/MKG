@@ -26,11 +26,11 @@
     <span class="replyHandleDisplay"></span>
     <textarea name="komment" id="komment" cols="30" rows="5" placeholder="<?php echo t('mauricerenck.komments.form.label.comment'); ?>*" required></textarea>
     <input type="text" name="url" id="url" placeholder="Leave empty" tabindex="-1">
-    <input type="email" name="email" id="email" placeholder="<?php echo t('mauricerenck.komments.form.label.email'); ?>">
+    <!-- <input type="email" name="email" id="email" placeholder="<?php echo t('mauricerenck.komments.form.label.email'); ?>"> -->
     <input type="text" name="author" id="author" placeholder="<?php echo t('mauricerenck.komments.form.label.name'); ?>*" required value="<?php echo $formName; ?>">
     <input type="url" name="author_url" id="author_url" placeholder="<?php echo t('mauricerenck.komments.form.label.website'); ?>">
 <!-- additional input -->
-    <input type="text" name="author_age" id="author_age" placeholder="<?php echo t('mauricerenck.komments.form.label.age'); ?>">
+    <!-- <input type="text" name="author_age" id="author_age" placeholder="<?php echo t('mauricerenck.komments.form.label.age'); ?>"> -->
 
     <div class="spam-indicator">
         <div class="progress"></div>

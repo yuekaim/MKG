@@ -11,10 +11,10 @@ function docReady(fn) {
 docReady(function () {
     const komment = document.querySelector('#kommentform #komment');
     const kommentForm = document.querySelector('#kommentform');
-    const kommentEmail = document.querySelector('#kommentform #email');
+    // const kommentEmail = document.querySelector('#kommentform #email');
     const kommentAuthor = document.querySelector('#kommentform #author');
     const kommentUrl = document.querySelector('#kommentform #author_url');
-    const kommentAge = document.querySelector('#kommentform #author_age');
+    // const kommentAge = document.querySelector('#kommentform #author_age');
     const timeField = document.querySelector('#kommentform .cts');
     const submitField = document.querySelector('#kommentform input[type=submit]');
     const spamIndicatorProgress = document.querySelector('#kommentform .spam-indicator .progress');
@@ -96,7 +96,8 @@ docReady(function () {
                     formFeedback.classList.add('moderation-note')
                     formFeedback.innerHTML = message.message
                     kommentForm.reset();
-
+                    // blurbg.click();
+                    setTimeout(() => { location.reload(); }, 1000);
                 })
             })
             .catch((error) => {
@@ -104,15 +105,14 @@ docReady(function () {
                     formFeedback.classList.add('error')
                     formFeedback.classList.remove('moderation-note')
                     formFeedback.innerHTML = error.message
-
                 })
             })
     }
 
-    kommentEmail.style.display = 'none';
+    // kommentEmail.style.display = 'none';
     kommentAuthor.style.display = 'none';
     kommentUrl.style.display = 'none';
-    kommentAge.style.display = 'none';
+    // kommentAge.style.display = 'none';
 
     komment.addEventListener('focus', () => {
         setIndicator();
@@ -124,8 +124,8 @@ docReady(function () {
 
     kommentForm.addEventListener('submit', (event) => {
         sendKomment(event);
-        blurbg.click();
-        setTimeout(() => { location.reload(); }, 1000);
+        // blurbg.click();
+        // setTimeout(() => { location.reload(); }, 1000);
     });
 
 

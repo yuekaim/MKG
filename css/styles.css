@@ -408,6 +408,11 @@ input:focus, textarea:focus{
 .linked-komment a{
   /* font-size: 2em; */
   /* cursor: url("arrow4.svg"), auto; */
+  display: block;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .linked-komment:hover a{

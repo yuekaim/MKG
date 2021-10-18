@@ -57,10 +57,9 @@
     <?php if (count($komments['replies']) > 0) : ?>
     <h5><?php echo t('mauricerenck.komments.headline.replies'); ?></h5>
     <ul class="list-replies">
-        <?php foreach ($komments['replies'] as $komment) : addReply($komment); endforeach; ?>
+        <?php foreach (array_reverse($komments['replies']) as $komment) : addReply($komment); endforeach; ?>
     </ul>
 <?php endif; ?>
 </div>
 
 </div>
-

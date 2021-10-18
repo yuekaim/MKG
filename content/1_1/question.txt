@@ -270,3 +270,194 @@ Kommentsinbox:
   verified: 'true'
   id: 6bfd5fd056351414214708f61c3205fc
   spamlevel: 0
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test with no email
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-12 21:20:00
+  status: 'true'
+  verified: 'false'
+  id: aa9aedde3e79d60ff8b8fd62aa56fdf9
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test no email
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-12 21:25:00
+  status: 'true'
+  verified: 'false'
+  id: 253a882a304f9a85fc8de874e6fe3829
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: https://google.com
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: no email refresh
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-12 21:25:00
+  status: 'true'
+  verified: 'false'
+  id: e398f31796a6c375d1f1eca2cbc4b5b4
+  spamlevel: 0
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: correct response refresh
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-12 21:25:00
+  status: 'true'
+  verified: 'false'
+  id: 98090d0235fc12140125a95e66d75bcc
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test refresh
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-12 21:55:00
+  status: 'true'
+  verified: 'false'
+  id: 9ac1278e3ffa2603d3aa5d866bd4cb4c
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test refresh again
+  quote: ""
+  kommenttype: KOMMENT
+  published: ""
+  status: 'true'
+  verified: 'false'
+  id: 257c0d9842d8c0f64c76d408651079c7
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: test refresh
+  quote: ""
+  kommenttype: KOMMENT
+  published: ""
+  status: 'true'
+  verified: 'false'
+  id: 72e037670032543fdeb9dbd932fad7db
+  spamlevel: 100
+- 
+  avatar: null
+  author: cleo
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: no time?
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-12 22:05:00
+  status: 'true'
+  verified: 'true'
+  id: 4a7ed5017f5614e8f9cc1f48caae1b4f
+  spamlevel: 100
+- 
+  avatar: null
+  author: test
+  authorurl: ""
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: time now?
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-12 22:05:00
+  status: 'true'
+  verified: 'true'
+  id: 17df01f0964a255755a6dc48989185dc
+  spamlevel: 0
+- 
+  avatar: null
+  author: cleo
+  authorurl: >
+    https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/
+  authorage: ""
+  imgurl: ""
+  imgtext: ""
+  source: http://localhost:8000/1
+  target: http://localhost:8000/1
+  mentionof: http://localhost:8000/1
+  property: KOMMENT
+  komment: long url
+  quote: ""
+  kommenttype: KOMMENT
+  published: 2021-10-12 22:20:00
+  status: 'true'
+  verified: 'true'
+  id: 95e3471f7ebad6212eec092b541a669f
+  spamlevel: 100
