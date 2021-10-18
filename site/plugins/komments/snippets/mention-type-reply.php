@@ -18,8 +18,8 @@
           <?php if ($komment['komment']->komment()->isNotEmpty()): ?>
               <div class="komment-text">
                   <?php echo $komment['komment']->komment()->kirbytext(); ?>
-                  <?php if($komment['authorurl'] !== "") echo "<a href='" . $komment['authorurl'] . "' target='_blank'>" . $komment['authorurl'] . "</a>"; ?>
-                  <br><br>
+                  <?php if($komment['authorurl'] !== "") echo "<a href='" . $komment['authorurl'] . "' target='_blank'>" . $komment['authorurl'] . "</a>"; else echo "<br>"?>
+                  <br>
                   <?php echo $komment['author']; ?> <?php echo $komment['author_age']; ?><br>
 
                   <span class="date" style="font-size: 0.6em"><?php echo $komment['published']->published()->toDate('d.m.Y'); ?></span>
@@ -28,7 +28,7 @@
           <!-- <a href="#kommentform" class="kommentReply <?php echo option('mauricerenck.komments.replyClassNames'); ?>" data-id="<?php echo $komment['id']; ?>" data-handle="<?php echo $komment['author']; ?>"><?php echo t('mauricerenck.komments.action.reply.text'); ?></a> -->
       </div>
 
-      <div class="img-container" style="z-index: 3000;">
+      <div class="img-container" style="z-index: 1000;">
         <img src="<?php echo $komment['imgUrl'] ?>" alt="">
       </div>
 
