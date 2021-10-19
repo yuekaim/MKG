@@ -16,7 +16,7 @@ return [
         'mauricerenck.komments.form.label.comment' => 'Answer',
         'mauricerenck.komments.form.label.email' => 'E-mail',
         'mauricerenck.komments.form.label.name' => 'Your name, Age, Profession ',
-        'mauricerenck.komments.form.label.website' => 'Relavant Link',
+        'mauricerenck.komments.form.label.website' => 'Relevant Link',
         'mauricerenck.komments.form.label.age' => 'Age',
         'mauricerenck.komments.headline.likes' => 'Likes',
         'mauricerenck.komments.headline.reposts' => 'Shares',
