@@ -485,6 +485,7 @@ input:focus, textarea:focus{
       /* position: fixed; */
       font-size: 1.5em;
       text-align: right;
+      font-family: "Morlok";
     }
 
     .imprint::before{
@@ -492,6 +493,7 @@ input:focus, textarea:focus{
       background-color: black;
       /* position: fixed; */
       font-size: 1.5em;
+      font-family: "Morlok";
       /* text-align: right; */
     }
 
